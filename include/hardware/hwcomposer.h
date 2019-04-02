@@ -299,7 +299,7 @@ typedef struct hwc_layer_1 {
              */
             hwc_region_t surfaceDamage;
 
-#ifndef PREBUILT_HWC
+#ifdef QTI_BSP
             /* Color for Dim Layer */
             hwc_color_t color;
 #endif
